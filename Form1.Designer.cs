@@ -59,6 +59,7 @@
             this.przycisk_polacz.TabIndex = 2;
             this.przycisk_polacz.Text = "Polacz z";
             this.przycisk_polacz.UseVisualStyleBackColor = true;
+            this.przycisk_polacz.Click += new System.EventHandler(this.przycisk_polacz_Click);
             // 
             // my_port
             // 
@@ -76,7 +77,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(584, 366);
+            this.ClientSize = new System.Drawing.Size(589, 387);
             this.Controls.Add(this.my_port);
             this.Controls.Add(this.przycisk_polacz);
             this.Controls.Add(this.info_o_polaczeniu);
